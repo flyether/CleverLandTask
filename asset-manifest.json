@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CleverLandTask/static/css/main.4b2827b8.css",
-    "main.js": "/CleverLandTask/static/js/main.000e8499.js",
+    "main.css": "/CleverLandTask/static/css/main.2bfb693f.css",
+    "main.js": "/CleverLandTask/static/js/main.35cf3abd.js",
     "static/media/avatar.png": "/CleverLandTask/static/media/avatar.2e4f081416097bbc1d6a.png",
     "static/media/clever.svg": "/CleverLandTask/static/media/clever.e0c9af4517b7471a6baf.svg",
     "static/media/buttonSqRed.svg": "/CleverLandTask/static/media/buttonSqRed.25a8d7c3f0c1640d5c78.svg",
@@ -13,7 +13,7 @@
     "static/media/crossIcon.svg": "/CleverLandTask/static/media/crossIcon.6f49d59c6f26799b8feae7261773ede5.svg",
     "static/media/Icon_Social.svg": "/CleverLandTask/static/media/Icon_Social.73b7e7652d2ed5d7918e0b7f0c459c85.svg",
     "static/media/select.svg": "/CleverLandTask/static/media/select.6f6d1e97a78c7687d954012cbf2bdac0.svg",
-    "static/media/logo-clevertec_40.svg": "CleverLandTask/static/media/logo-clevertec_40.09ac971006a0c0a758c51d32374fbedd.svg",
+    "static/media/logo-clevertec_40.svg": "/CleverLandTask/static/media/logo-clevertec_40.09ac971006a0c0a758c51d32374fbedd.svg",
     "static/media/stripB.svg": "/CleverLandTask/static/media/stripB.7ed8294da91fd5b3e842.svg",
     "static/media/loup.svg": "/CleverLandTask/static/media/loup.91615c901c567fe99f97a53beeeb327f.svg",
     "static/media/StarFull.svg": "/CleverLandTask/static/media/StarFull.191c513b136f30800847.svg",
@@ -23,22 +23,22 @@
     "static/media/close.svg": "/CleverLandTask/static/media/close.02c2c39f2e7eb77c75ff.svg",
     "static/media/open.svg": "/CleverLandTask/static/media/open.7d179d76f8291987db4f.svg",
     "static/media/WarningCircle.svg": "/CleverLandTask/static/media/WarningCircle.9a831c3e72fecedecdec.svg",
+    "index.html": "/CleverLandTask/index.html",
     "static/media/photo.svg": "/CleverLandTask/static/media/photo.436b4cb89b58dd7d0a3e.svg",
     "static/media/Eye.svg": "/CleverLandTask/static/media/Eye.f0b3f620508d3d043783.svg",
     "static/media/Icon_Soc.svg": "/CleverLandTask/static/media/Icon_Soc.6ac40e9460174f574543a70fca0b4bc1.svg",
-    "index.html": "/index.html",
     "static/media/StarEmpty.svg": "/CleverLandTask/static/media/StarEmpty.e3784de4148d57b0a916.svg",
-    "static/media/arrDown.svg": "/static/media/arrDown.a5b805df659e566022b1.svg",
-    "static/media/open-black.svg": "/static/media/open-black.691ba863ec30f2641f13.svg",
-    "static/media/arrUp.svg": "/static/media/arrUp.67603f4bcf608accca8c.svg",
-    "static/media/ok.svg": "/static/media/ok.014d0af6fc577b2a30d2.svg",
-    "static/media/facebook.svg": "/static/media/facebook.f48191e628797b3b5109334219514fa9.svg",
-    "static/media/arrow_drop_down_24px.svg": "/static/media/arrow_drop_down_24px.c5e39303e24757b08d13.svg",
-    "main.4b2827b8.css.map": "/static/css/main.4b2827b8.css.map",
-    "main.000e8499.js.map": "/static/js/main.000e8499.js.map"
+    "static/media/arrDown.svg": "/CleverLandTask/static/media/arrDown.a5b805df659e566022b1.svg",
+    "static/media/open-black.svg": "/CleverLandTask/static/media/open-black.691ba863ec30f2641f13.svg",
+    "static/media/arrUp.svg": "/CleverLandTask/static/media/arrUp.67603f4bcf608accca8c.svg",
+    "static/media/ok.svg": "/CleverLandTask/static/media/ok.014d0af6fc577b2a30d2.svg",
+    "static/media/facebook.svg": "/CleverLandTask/static/media/facebook.f48191e628797b3b5109334219514fa9.svg",
+    "static/media/arrow_drop_down_24px.svg": "/CleverLandTask/static/media/arrow_drop_down_24px.c5e39303e24757b08d13.svg",
+    "main.2bfb693f.css.map": "/CleverLandTask/static/css/main.2bfb693f.css.map",
+    "main.35cf3abd.js.map": "/CleverLandTask/static/js/main.35cf3abd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b2827b8.css",
-    "static/js/main.000e8499.js"
+    "static/css/main.2bfb693f.css",
+    "static/js/main.35cf3abd.js"
   ]
 }
