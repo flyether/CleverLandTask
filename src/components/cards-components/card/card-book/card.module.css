@@ -1,0 +1,303 @@
+.tile__card__container {
+  width: 190px;
+  height: 470px;
+  padding: 8px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.tile__card__container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+    0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 10px;
+  margin: auto;
+  align-items: flex-start;
+}
+
+.tile__star {
+  display: flex;
+  position: absolute;
+  top: 270px;
+  gap: 10px;
+}
+
+
+.star__text {
+  position: absolute;
+  top: 270px;
+  color: #a7a7a7;
+}
+
+.card__img {
+  position: absolute;
+  top: 10px;
+  width: 174px ;
+  height: 242px ;
+}
+
+.author {
+  position: absolute;
+  top: 360px;
+  color: #727272;
+}
+
+.description {
+  width: 174px;
+  height: 56px;
+  position: absolute;
+  top: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.button_booking,
+.button {
+  position: absolute;
+}
+
+.button1_booking,
+.button_booking,
+.button,
+.button1 {
+  border-radius: 20px;
+  width: 166px;
+  height: 40px;
+  bottom: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button1_booking:disabled,
+.button_booking:disabled,
+.button:disabled,
+.button1:disabled {
+  cursor: default;
+}
+
+.button,
+.button1 {
+  color: white;
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+}
+
+.button1_booking,
+.button_booking {
+  background: #ffffff;
+  border: 1px solid #bfc4c9;
+  color: rgb(167, 167, 167);
+}
+
+.description,
+.author,
+.star__text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.card__container__colum1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card__container1 {
+  position: relative;
+  width: 100%;
+  height: 218px;
+  padding: 24px 24px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+    0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 10px;
+  margin: 8px auto;
+  align-items: flex-start;
+}
+
+.cards__container1 {
+  display: flex;
+  gap: 15px;
+}
+
+.card__container__flex1 {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card__container__flex__rating1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.tile__star1 {
+  display: flex;
+  width: 144px;
+  height: 24px;
+  margin-bottom: 16px;
+  gap: 10px;
+}
+
+.card__img1 {
+  display: flex;
+  flex-shrink: 0;
+  width: 120px;
+  height: 170px;
+  margin-right: 16px;
+}
+
+.author1,
+.star__text1 {
+  color: #727272;
+}
+
+.description1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+
+.author1,
+.star__text1,
+.description1,
+.author1,
+.star__text1 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 600px) {
+  .tile__card__container {
+    width: 190px;
+    height: 470px;
+    padding: 8px;
+  }
+
+  .tile__card__container {
+    width: 288px;
+    height: 470px;
+    align-items: flex-start;
+  }
+
+  .tile__star {
+    position: absolute;
+    top: 270px;
+    left: 16px;
+  }
+
+  .star__text {
+    position: absolute;
+    top: 270px;
+    color: #a7a7a7;
+    left: 16px;
+  }
+
+  .card__img {
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    width: 174px;
+    height: 242px;
+  }
+
+  .author {
+    position: absolute;
+    top: 375px;
+    color: #727272;
+    left: 16px;
+  }
+
+  .description {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    top: 310px;
+    left: 16px;
+  }
+
+  .button_booking,
+  .button,
+  .button__pres,
+  .button__booking {
+    left: 16px;
+    width: 256px;
+  }
+
+  .card__img__list {
+    width: 70px;
+    height: 100px;
+  }
+
+  .tile__cards__container {
+    max-width: 288px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .tile__star1 {
+    width: 104px;
+    height: 16px;
+  }
+
+  .cards__container1 {
+    margin: 0;
+  }
+
+  .img1 {
+    display: block;
+    width: 70px;
+    height: 100px;
+  }
+
+  .card__img1 {
+    width: 70px;
+    height: 100px;
+  }
+
+  .card__container1 {
+    width: 100%;
+    height: 100%;
+    padding: 16px 16px;
+  }
+
+  .card__container__flex__rating1 {
+    flex-direction: column;
+  }
+
+  .author1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  .star__text1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px;
+  }
+
+  .description1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+}

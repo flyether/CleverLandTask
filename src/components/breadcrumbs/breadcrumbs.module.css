@@ -1,0 +1,37 @@
+.container {
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.active,
+.not__active {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #a7a7a7;
+}
+
+.space {
+  margin: 0 4px;
+}
+@media (max-width: 860px) {
+  .container {
+    margin-left: 64px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin-left: 16px;
+  }
+  .active,
+  .not__active {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+  }
+}

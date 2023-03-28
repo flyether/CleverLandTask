@@ -1,0 +1,135 @@
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.no__scroll {
+  overflow: hidden;
+}
+
+.form {
+  z-index: 11;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 16px;
+  position: relative;
+  line-height: 30px;
+  padding: 48px 32px;
+}
+
+.rating {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.cross__button {
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(249, 93, 9);
+  border-radius: 50px;
+  width: 48px;
+  height: 48px;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  background: #f9f9fa;
+  filter: drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18))
+    drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
+}
+
+.button {
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  border-radius: 30px;
+  width: 416px;
+  height: 52px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0 auto 0px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.textarea {
+  resize: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px;
+  width: 100%;
+  max-width: 536px;
+  height: 132px;
+  background: #f9f9fa;
+  border-radius: 4px;
+  margin: 32px 32px 52px;
+}
+
+.title,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.full__star {
+  background-image: url(../../assets/svg/StarFull42.svg);
+}
+.full__star,
+.empty__star {
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 42px;
+  height: 42px;
+}
+
+.empty__star {
+  background-image: url(../../assets/svg/StarEmpty42.svg);
+}
+
+@media (max-width: 600px) {
+  .form {
+    max-width: 93%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 125px;
+  }
+
+  .cross__button {
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .title,
+  .button {
+    width: 256px;
+  }
+}

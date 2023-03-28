@@ -1,0 +1,67 @@
+.container,
+.container__good {
+  max-width: 1110px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  padding: 28px;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto 0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  height: 72px;
+}
+
+.container {
+  background: #feebea;
+  border: 1.5px solid #f42c4f;
+}
+
+.container__good {
+  background: #ebf9f1;
+  border: 1.5px solid #00ca71;
+}
+
+.attention {
+  margin-right: 32px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../../assets/svg/WarningCircle.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ok {
+  margin-right: 32px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../../assets/svg/ok.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cross__icon {
+  font-weight: 400;
+  margin-left: auto;
+  font-size: 24px;
+}
+
+@media (max-width: 860px) {
+  .container,
+  .container__good {
+    margin: 32px 32px 0;
+    max-width: 280px;
+  }
+
+  .container,
+.container__good {
+  font-size: 12px;
+}
+}

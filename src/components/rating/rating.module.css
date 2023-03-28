@@ -1,0 +1,20 @@
+
+ .full__star{
+   width: 20px;
+   height: 20px;
+   background-image: url(../../assets/svg/StarFull.svg);
+ }
+ 
+ .empty__star{
+   width: 20px;
+   height: 20px;
+   background-image: url(../../assets/svg/StarEmpty.svg);
+ }
+
+ .star{
+  display: flex;
+   color: #a7a7a7;
+   gap: 10px;
+   
+ }
+ 

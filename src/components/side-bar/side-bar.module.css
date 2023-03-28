@@ -1,0 +1,129 @@
+.hide {
+  display: none;
+}
+
+.container {
+  position: relative;
+  z-index: 3;
+  width: 280px;
+}
+
+.ul__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 0px 0px 28px;
+  gap: 16px;
+}
+
+.div__link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  margin: 36px auto;
+}
+
+.div__link__Book {
+  margin-top: 50px;
+  width: 255px;
+  height: 36px;
+}
+
+.ul__all {
+  display: flex;
+  font-weight: 700;
+  font-size: 18px;
+  background-clip: text;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.wite {
+  white-space:wrap ;
+}
+
+.link__label {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.link__number {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #a7a7a7;
+}
+
+.active {
+  color: rgb(249, 93, 9);
+  border-bottom: 1px rgb(249, 93, 9);
+  font-weight: bold;
+}
+.div__link__Book__active {
+  border-bottom: 1px solid rgb(249, 93, 9);
+}
+
+.close {
+  margin-left: 82px;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/svg/close.svg);
+}
+
+.open {
+  margin-left: 82px;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/svg/open.svg);
+}
+
+.authorization {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .container {
+    margin-left: 32px;
+  }
+
+  .div__link__Book__active__ut {
+    border-bottom: 1px solid rgb(249, 93, 9);
+    width: 255px;
+  }
+  .div__link_ut {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36px;
+    margin: 28px 0 0px 30px;
+    background: #f9f9fa;
+  }
+  .authorization {
+    width: 100%;
+    height: 98px;
+    border-top: 1px solid #bfc4c9;
+    margin: 0 0 52px 0;
+    display: block;
+    flex-direction: start;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-left: 12px;
+  }
+  .div__link_ut {
+    margin: 28px 0 0px 12px;
+  }
+}
