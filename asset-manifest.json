@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CleverLandTask/static/css/main.2bfb693f.css",
-    "main.js": "/CleverLandTask/static/js/main.35cf3abd.js",
+    "main.css": "/CleverLandTask/static/css/main.3e547bd4.css",
+    "main.js": "/CleverLandTask/static/js/main.c98170e0.js",
     "static/media/avatar.png": "/CleverLandTask/static/media/avatar.2e4f081416097bbc1d6a.png",
     "static/media/clever.svg": "/CleverLandTask/static/media/clever.e0c9af4517b7471a6baf.svg",
     "static/media/buttonSqRed.svg": "/CleverLandTask/static/media/buttonSqRed.25a8d7c3f0c1640d5c78.svg",
@@ -34,11 +34,11 @@
     "static/media/ok.svg": "/CleverLandTask/static/media/ok.014d0af6fc577b2a30d2.svg",
     "static/media/facebook.svg": "/CleverLandTask/static/media/facebook.f48191e628797b3b5109334219514fa9.svg",
     "static/media/arrow_drop_down_24px.svg": "/CleverLandTask/static/media/arrow_drop_down_24px.c5e39303e24757b08d13.svg",
-    "main.2bfb693f.css.map": "/CleverLandTask/static/css/main.2bfb693f.css.map",
-    "main.35cf3abd.js.map": "/CleverLandTask/static/js/main.35cf3abd.js.map"
+    "main.3e547bd4.css.map": "/CleverLandTask/static/css/main.3e547bd4.css.map",
+    "main.c98170e0.js.map": "/CleverLandTask/static/js/main.c98170e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bfb693f.css",
-    "static/js/main.35cf3abd.js"
+    "static/css/main.3e547bd4.css",
+    "static/js/main.c98170e0.js"
   ]
 }
