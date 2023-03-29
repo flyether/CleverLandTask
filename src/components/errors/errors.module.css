@@ -48,7 +48,7 @@
 }
 
 .cross__icon {
-  font-weight: 400;
+  font-weight: 200;
   margin-left: auto;
   font-size: 24px;
 }
@@ -56,10 +56,14 @@
 @media (max-width: 860px) {
   .container,
   .container__good {
-    margin: 32px 32px 0;
-    max-width: 280px;
+    padding: 5px;
+    margin: 32px auto;
+    max-width: 300px;
   }
-
+  .cross__icon {
+margin-right: 3px;
+    font-size: 18px;
+  }
   .container,
 .container__good {
   font-size: 12px;
