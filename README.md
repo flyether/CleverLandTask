@@ -3,5 +3,7 @@ It gives you the opportunity to study information about books, leave reviews and
 
 Deploy:https://flyether.github.io/CleverLandTask/
 
+Test user: login: Test1234 password: Test1234
+
 ![Текст с описанием картинки](./src/assets/img/deploy.JPG)
 
