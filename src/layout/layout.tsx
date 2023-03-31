@@ -42,10 +42,10 @@ export const Layout = () => {
   }, [queries]);
 
   useEffect(() => {
-    const rejectedQuery = Object.values(mutations).find((mutation) => mutation?.status === 'rejected');
+    const rejectedMutation = Object.values(mutations).find((mutation) => mutation?.status === 'rejected');
 
-    if (rejectedQuery && rejectedQuery.endpointName ) {
-      setRejectedEndpointName(displayError(rejectedQuery.endpointName));
+    if (rejectedMutation && rejectedMutation.endpointName ) {
+      setRejectedEndpointName(displayError(rejectedMutation.endpointName));
     
     } else {
       setRejectedEndpointName(undefined);
